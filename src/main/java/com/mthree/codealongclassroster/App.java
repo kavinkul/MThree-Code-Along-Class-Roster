@@ -5,10 +5,16 @@
  */
 package com.mthree.codealongclassroster;
 
+import com.mthree.codealongclassroster.controller.ClassRosterController;
+
 /**
  *
  * @author kavin
  */
 public class App {
     
+    public static void main(String[] args){
+        ClassRosterController controller = new ClassRosterController();
+        controller.run();
+    }
 }
